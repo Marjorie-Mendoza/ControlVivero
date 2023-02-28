@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace SysControlVivero.EntidadesDeNegocio
 {
-    internal class Categoria
+    public class Categoria
     {
+        public int Cod { get; set; }
+        public string Nombre { get; set; }
+        public string Descripcion { get; set; }
+
+            public List<Producto> productos { get; set; }
+ 
     }
 }
