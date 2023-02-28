@@ -6,4 +6,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="Categoria.cs" />
+    <Compile Include="Cliente.cs" />
+    <Compile Include="DetalleDeCompra.cs" />
+    <Compile Include="DetalleDeVenta.cs" />
+    <Compile Include="Empleado.cs" />
+    <Compile Include="Factura.cs" />
+    <Compile Include="Inventario.cs" />
+    <Compile Include="Producto.cs" />
+    <Compile Include="Rol.cs" />
+    <Compile Include="Usuario.cs" />
+  </ItemGroup>
+
 </Project>
