@@ -13,5 +13,6 @@ namespace SysControlVivero.EntidadesDeNegocio
         private string Clave { get; set; }
 
            public Rol rol { get; set; }
+        public Empleado empleados { get; set; }
     }
 }
