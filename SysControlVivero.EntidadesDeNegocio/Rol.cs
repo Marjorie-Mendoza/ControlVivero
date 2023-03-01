@@ -12,6 +12,6 @@ namespace SysControlVivero.EntidadesDeNegocio
         public string Nombre { get; set; }
         public int Nivel { get; set; }
 
-           public List<Rol> rols { get; set; }
+           public List<Usuario> usuarios { get; set; }
     }
 }
