@@ -18,5 +18,8 @@ namespace SysControlVivero.EntidadesDeNegocio
 
           public Cliente cliente { get; set;}
           public Empleado empleado { get; set;}
+
+          public DetalleDeVenta detalledeventa { get; set;}
+
     }
 }

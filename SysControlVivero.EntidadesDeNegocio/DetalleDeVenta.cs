@@ -15,5 +15,7 @@ namespace SysControlVivero.EntidadesDeNegocio
         public decimal VentaExenta { get; set; }
 
           public List<Producto> productos { get; set; }
+          public List<Factura> facturas { get; set; }
+
     }
 }
