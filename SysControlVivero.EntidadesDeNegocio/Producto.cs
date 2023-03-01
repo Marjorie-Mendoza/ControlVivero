@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SysControlVivero.EntidadesDeNegocio
 {
-    internal class Producto
+    public class Producto
     {
         public int Cod { get; set; }
         public string Nombre { get; set; }
@@ -16,6 +16,9 @@ namespace SysControlVivero.EntidadesDeNegocio
    
 
         public Categoria categoria { get; set; }
+        public DetalleDeCompra detalledecompra { get; set; }
+        public Inventario inventario { get; set; }
+        public DetalleDeVenta detalledeventa { get; set; }
     }
 
 }

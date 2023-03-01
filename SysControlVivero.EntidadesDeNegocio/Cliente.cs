@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace SysControlVivero.EntidadesDeNegocio
 {
-    internal class Cliente
+    public class Cliente
     {
+        public string DUI { get; set; }
+        public string Nombre { get; set; }
+        private string Direccion { get; set; }
+        private string Telefono { get; set; }
+
+          public List<Factura> facturas { get; set; }
     }
 }

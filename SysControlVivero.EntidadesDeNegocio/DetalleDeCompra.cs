@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace SysControlVivero.EntidadesDeNegocio
 {
-    internal class DetalleDeCompra
+    public class DetalleDeCompra
     {
+        public DateTime fecha { get; set; }
+        public string NombreEmpresa { get; set; }
+        public int cantidad { get; set; }
+        public string descripcion { get; set; }
+        public decimal precioTotal { get; set; }
+
+          public List<Producto> productos { get; set; }
     }
 }

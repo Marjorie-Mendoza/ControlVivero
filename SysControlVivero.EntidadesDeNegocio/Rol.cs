@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace SysControlVivero.EntidadesDeNegocio
 {
-    internal class Rol
+    public class Rol
     {
+        public int Cod { get; set; }
+        public string Nombre { get; set; }
+        public int Nivel { get; set; }
+
+           public List<Rol> rols { get; set; }
     }
 }
