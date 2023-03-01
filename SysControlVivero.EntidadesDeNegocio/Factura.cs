@@ -8,7 +8,7 @@ namespace SysControlVivero.EntidadesDeNegocio
 {
     public class Factura
     {
-        public int Numeroñ { get; set; }
+        public int Numero { get; set; }
         public DateTime Fecha { get; set;}
         public string Dirrecion { get; set;}
         public string Telefono { get; set;}
