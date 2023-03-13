@@ -8,6 +8,7 @@ namespace SysControlVivero.EntidadesDeNegocio
 {
      public class Empleado
     {
+        public int Id { get; set; }
         public string Nombre { get; set; }
         public string Correo { get; set; }
         private string DUI { get; set; }

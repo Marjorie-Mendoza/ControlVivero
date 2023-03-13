@@ -8,8 +8,8 @@ namespace SysControlVivero.EntidadesDeNegocio
 {
     public class Inventario
     {
-        public int Numero { get; set; }
-        public int Cod { get; set; }
+        public int Id { get; set; }
+        public int CodProducto { get; set; }
         public string Descripcion { get; set; }
         public int ExistenciasMesAnterior { get; set; }
         public int Entradas { get; set; }

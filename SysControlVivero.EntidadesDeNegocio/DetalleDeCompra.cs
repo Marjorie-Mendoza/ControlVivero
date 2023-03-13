@@ -8,6 +8,7 @@ namespace SysControlVivero.EntidadesDeNegocio
 {
     public class DetalleDeCompra
     {
+        public int Id { get; set; }
         public DateTime fecha { get; set; }
         public string NombreEmpresa { get; set; }
         public int cantidad { get; set; }

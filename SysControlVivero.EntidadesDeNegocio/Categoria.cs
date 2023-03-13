@@ -8,7 +8,7 @@ namespace SysControlVivero.EntidadesDeNegocio
 {
     public class Categoria
     {
-        public int Cod { get; set; }
+        public int Id { get; set; }
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
 

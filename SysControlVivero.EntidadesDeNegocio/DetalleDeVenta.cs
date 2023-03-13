@@ -8,6 +8,7 @@ namespace SysControlVivero.EntidadesDeNegocio
 {
     public class DetalleDeVenta
     {
+        public int Id { get; set; }
         public int Cantidad { get; set; }
         public decimal Descuento { get; set; }
         public string FormaDePago { get; set; }
