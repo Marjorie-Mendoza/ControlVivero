@@ -17,9 +17,7 @@ namespace SysControlVivero.EntidadesDeNegocio
         public string Nombre { get; set; }
 
         [Required(ErrorMessage = "Especificar el número de nivel")]
-        [ StringLength(1,ErrorMessage ="numero maximo de caracter 1",MinimumLength =1)]
         public int Nivel { get; set; }
-        //Hola Soy David
            public List<Usuario> usuarios { get; set; }
     }
 }
