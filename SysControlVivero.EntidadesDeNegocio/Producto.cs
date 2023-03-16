@@ -8,8 +8,8 @@ namespace SysControlVivero.EntidadesDeNegocio
 {
     public class Producto
     {
-        public int Id { get; set; }
-        public int Cod { get; set; }
+        public int IdProducto { get; set; }
+        public int CodProducto { get; set; }
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
         public int FechaVencimiento { get; set; }
