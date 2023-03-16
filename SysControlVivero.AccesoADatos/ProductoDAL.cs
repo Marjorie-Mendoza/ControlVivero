@@ -46,6 +46,7 @@ namespace SysControlVivero.AccesoADatos
             }
 
         }
+        //hola
         public int EliminarProducto(List<Producto> ListaProducto, int id)
         {
             if (id != 0)
