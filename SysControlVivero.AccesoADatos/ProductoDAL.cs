@@ -46,7 +46,7 @@ namespace SysControlVivero.AccesoADatos
             }
 
         }
-        //FOREVER WE ARE YOUNG 
+        //LIFE GOES ON
         public int EliminarProducto(List<Producto> ListaProducto, int id)
         {
             if (id != 0)
