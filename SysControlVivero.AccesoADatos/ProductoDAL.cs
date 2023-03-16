@@ -46,7 +46,7 @@ namespace SysControlVivero.AccesoADatos
             }
 
         }
-        //BTS FOREVER WE ARE YOUNG 
+        //FOREVER WE ARE YOUNG 
         public int EliminarProducto(List<Producto> ListaProducto, int id)
         {
             if (id != 0)
