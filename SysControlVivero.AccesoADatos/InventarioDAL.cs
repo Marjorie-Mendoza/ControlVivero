@@ -9,7 +9,7 @@ namespace SysControlVivero.AccesoADatos
 {
     public class InventarioDAL
     {
-        //life goes on
+        //life goes ON
         public int AgregarInventario(List<Inventario> ListaInventario, Inventario pInventario)
         {
             ListaInventario.Add(pInventario);
