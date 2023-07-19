@@ -19,7 +19,7 @@ namespace SysControlVivero.EntidadesDeNegocio
 
         [Required(ErrorMessage = "descripción de producto es obligatorio")]
         [StringLength(50, ErrorMessage = "maximo 50 caracteres")]
-        public string Descripcion { get; set; }
+        public string? Descripcion { get; set; }
 
         [Required(ErrorMessage = "Existencias mes anterior es obligatorio")]
         [Display(Name = "Existencias mes anterior")]
@@ -34,6 +34,6 @@ namespace SysControlVivero.EntidadesDeNegocio
         [Required(ErrorMessage = "Stock es obligatorio")]
         public int Stock { get; set; }
 
-        public List<Producto> productos { get; set; }
+        public List<Producto>? productos { get; set; }
     }
 }

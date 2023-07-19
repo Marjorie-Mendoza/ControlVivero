@@ -10,16 +10,16 @@ namespace SysControlVivero.EntidadesDeNegocio
     {
         public int IdProducto { get; set; }
         public int CodProducto { get; set; }
-        public string Nombre { get; set; }
-        public string Descripcion { get; set; }
+        public string? Nombre { get; set; }
+        public string? Descripcion { get; set; }
         public int FechaVencimiento { get; set; }
         public decimal Precio { get; set; }
    
 
-        public Categoria categoria { get; set; }
-        public DetalleDeCompra detalledecompra { get; set; }
-        public Inventario inventario { get; set; }
-        public DetalleDeVenta detalledeventa { get; set; }
+        public Categoria? categoria { get; set; }
+        public DetalleDeCompra? detalledecompra { get; set; }
+        public Inventario? inventario { get; set; }
+        public DetalleDeVenta? detalledeventa { get; set; }
     }
 
 }
